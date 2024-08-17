@@ -1,19 +1,25 @@
 "use strict";
-let t = 'Dilshan';
-console.log(t);
-let a = 10;
-let b = 4;
-let c = 2;
-let myName = 'tharanga';
-let age = 26;
-let whatCanDo;
-let isLiving = true;
-// this is union data type
-let whatILike;
-//Implicit Type
-let homeTown = 'galle';
-//Explicit Type
-let livingTown = 'colombo';
-const sum = (a, b) => {
-    return a + b;
-};
+// -----------  string array only can add string
+let strArr = ['one', 'two', 'three', 'four', 'five', 'six'];
+/*
+
+strArr.push(7)
+
+strArr.push('seven')
+*/
+// ----------- number array only can add number
+let numArr = [1, 2, 3, 4, 5, 6];
+/*
+
+strArr.push(7)
+
+strArr.push('seven')
+*/
+// ----------- mixed array - union type array (only can add these type in the array)
+let mix = [1, 'two', 3, 'four', true, null];
+/*
+mix.push(undefined);
+
+mix.push(7)
+
+*/
